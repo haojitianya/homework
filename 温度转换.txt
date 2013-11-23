@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+double change(double f)
+{
+	return (f-32)*5/9;
+}
+int main()
+{
+	double f;
+	cout<<"请输入华氏温度："<<endl;
+	cin>>f;
+	cout<<"对应的摄氏温度为："<<change(f)<<endl;
+}
